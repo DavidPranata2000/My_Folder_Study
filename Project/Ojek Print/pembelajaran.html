@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Ojek Print</title>
+    <link rel="stylesheet" href="Style/Style.css">
+    <link rel="icon" href="../../Footage/Logo_OP.png">
+</head>
+
+<body>
+    <img src="../../Footage/Header_OP.png" class="BGToko">
+    <span class="GradasiBGAtas"></span>
+    <span class="GradasiBGBawah"></span>
+    <div class="Nav">
+        <span class="BGNav"></span>
+        <span class="LogoName">Ojek Print</span>
+        <span class="NavHome"><a href="#">Home</a></span>
+        <span class="NavKami"><a href="#">Tentang Kami</a></span>
+        <span class="NavProduk"><a href="#">Produk</a></span>
+        <span class="NavPelayan">Pelayanan</span>
+        <span class="icon_Belanja"><img src="../../Footage/Belanja.png" width="20px"></span>
+        <span class="icon_Notif"><img src="../../Footage/Notif.png" width="20px"></span>
+        <input type="text" class="NavSearch" placeholder="Search..">
+        <span class="BarDaftar"><a href="#">Daftar</a></span>
+        <span class="BarMasuk"><a href="#">Masuk</a></span>
+    </div>
+    <span class="BGFooter"></span>
+    <span class="Copyright">Copyright ©2023 Ojek Print | PT. Kurniawan Mada | Penyedia Jasa Terbaik</span>
+    <span class="SK">Syarat dan ketentuan</span>
+    <span class="KP">Kebijakan Privasi</span>
+    <div>
+        <div class="TabelKonfirmasi">
+            <span class="TableHarga"></span>
+            <form>
+                <span class="PilihanToko">Citra Karya</span>
+                <label for="KodePromo" class="LabelMasukanKode">Masukan Kode Promo:</label>
+                <input type="text" id="KodePromo" name="KodePromo" class="KodePromo" required>
+                <span class="JumlahHarga">Jumlah Harga</span>
+                <span class="JumlahBelanja">12 </span>
+                <span class="Item">Item</span>
+                <span class="Rp1">Rp</span>
+                <span class="HargBelanja">12.000.00</span>
+                <span class="FEE">FEE</span>
+                <span class="Rp2">Rp</span>
+                <span class="HargaFEE">12.000.00</span>
+                <span class="GarisHarga"></span>
+                <span class="TotalHarga">Total Harga</span>
+                <span class="Rp3">Rp</span>
+                <span class="HargaTotal">12.000.00</span>
+                <label for="NamaPenerima" class="LabelPenerima">Nama Penerima:</label>
+                <input type="text" id="NamaPenerima" name="NamaPenerima" class="NamaPenerima"
+                    placeholder="Kurniawan Saputra" required>
+                <label for="NomorPenerima" class="LabelNomor">Nomor Penerima:</label>
+                <input type="tel" id="NomorPenerima" name="NomorPenerima" class="NomorPenerima" pattern="[0-9]{10}"
+                    placeholder="08812312121" required>
+                <span class="Estimasi">Estimasi Pengambilan :</span>
+                <span class="Pemilihan">
+                <label class="OpsiPengambilan">Opsi Pengambilan:</label>
+                <input type="radio" id="Ditempat" name="Opsi" value="Dikirim">
+                <label for="Dikirim">Ditempat</label>
+                <input type="radio" id="Dikirim" name="Opsi" value="Dikirim">
+                <label for="Dikirim">Dikirim</label>
+                <label for="Alamat" class="LabelAlamat">Alamat Dikirim:</label>
+                <input type="text" id="Alamat" name="Alamat" class="Alamat"
+                    placeholder="Kurniawan Saputra" required>
+            </span>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
